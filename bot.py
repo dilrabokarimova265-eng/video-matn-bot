@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTyp
 import asyncio
 import os
 
-BOT_TOKEN = 8400433153:AAF4n4N978XpxQzN3AvIbxHhPucXq2JjAQk
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 logging.basicConfig(level=logging.INFO)
 
